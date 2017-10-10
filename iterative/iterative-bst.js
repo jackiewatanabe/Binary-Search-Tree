@@ -47,6 +47,23 @@ Tree.prototype.search = function(value) {
   return false;
 }
 
+// Tree.prototype.height = function() {
+//   if (this.root === null) {
+//     return 0;
+//   }
+//
+//   var current = this.root;
+//   var heightLeft = 0;
+//   var heightRight = 0;
+//
+//   while (current !== null) {
+//     if (current.left) {
+//       heightLeft += 1;
+//
+//     }
+//   }
+// }
+
 var myTree = new Tree();
 
 console.log(myTree.insert(8));
